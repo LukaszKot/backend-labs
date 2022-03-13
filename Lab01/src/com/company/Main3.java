@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Main3 {
 
     public static void main(String[] args) {
         int[] array = {4, 5, 7, 11, 12, 15, 15, 21, 40, 45};
