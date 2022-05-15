@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheTrail.IdentityService.Api", "OnTheTrail.IdentityService.Api\OnTheTrail.IdentityService.Api.csproj", "{BB992A12-8C24-42D0-9B29-DD7172F5E940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheTrail.TrailService.Api", "OnTheTrail.TrailService.Api\OnTheTrail.TrailService.Api.csproj", "{729B7AC7-E8D0-443F-9368-BEB8258BFE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheTrail.TripService.Api", "OnTheTrail.TripService.Api\OnTheTrail.TripService.Api.csproj", "{CBC3433A-2256-4F0A-832D-71ECEAF3D407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB992A12-8C24-42D0-9B29-DD7172F5E940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB992A12-8C24-42D0-9B29-DD7172F5E940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB992A12-8C24-42D0-9B29-DD7172F5E940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB992A12-8C24-42D0-9B29-DD7172F5E940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729B7AC7-E8D0-443F-9368-BEB8258BFE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729B7AC7-E8D0-443F-9368-BEB8258BFE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729B7AC7-E8D0-443F-9368-BEB8258BFE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729B7AC7-E8D0-443F-9368-BEB8258BFE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC3433A-2256-4F0A-832D-71ECEAF3D407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC3433A-2256-4F0A-832D-71ECEAF3D407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC3433A-2256-4F0A-832D-71ECEAF3D407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC3433A-2256-4F0A-832D-71ECEAF3D407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
