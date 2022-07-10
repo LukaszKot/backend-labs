@@ -86,7 +86,9 @@ app.UseAuthentication();
 
 using (var scope = app.Services.CreateScope())
 {
-    scope.ServiceProvider.GetRequiredService<TrailDbContext>().Database.Migrate();
+    var dbContext = scope.ServiceProvider.GetRequiredService<TrailDbContext>();
+    dbContext.Database.Migrate();
+    dbContext.SeedData();
 }
 
 app.UseExceptionHandler(applicationBuilder =>
